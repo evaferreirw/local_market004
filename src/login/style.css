@@ -1,9 +1,9 @@
 :root{
     --azulclaro: #8ECAE6;
-    --azulescuro: #023047;
-    --azulmedio: #064f74;
-    --amarelo:#FFB703 ;
-    --laranja: #FB8500;
+    --rosaclaro: #d198c5;
+    --rosamedio: #bb5499;
+    --amarelo:#f7d7fd ;
+    --rosaclarinho: #e9aee1;
     --errorbg: lightpink;
     --texto: #ffffff;
     --dark: #090909;
@@ -38,7 +38,7 @@
 }
 
 body{
-    background-color: var(--azulescuro);
+    background-color: var(--rosaclaro);
     color: var(--texto);
     overflow-x: hidden;
     min-height: 100vh;
@@ -50,10 +50,10 @@ body{
 
 .container{
     position: relative;
-    background-color: var(--azulmedio);
+    background-color: var(--rosamedio);
     width: 300px;
     height: 300px;
-    border: 2px solid var(--laranja);
+    border: 2px solid var(--rosaclarinho);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -68,7 +68,7 @@ body{
     border-radius: 100%;
     width: 100px;
     height: 100px;
-    border: 2px solid var(--laranja);
+    border: 2px solid var(--rosaclarinho);
     box-shadow: 0px 5px 15px var(--dark);
 }
 
@@ -106,7 +106,7 @@ body{
     background-color: transparent;
     border: none;
     width: 100%;
-    border-bottom: 2px solid var(--laranja);
+    border-bottom: 2px solid var(--rosaclarinho);
     font-size: 18px;
     color: var(--text);
 }
@@ -129,7 +129,7 @@ input:focus{
 .btn-login{
     padding: 10px;
     width: 100%;
-    background-color: var(--laranja);
+    background-color: var(--rosaclarinho);
     font-size: 20px;
     border: none;
     margin-top: 20px;
